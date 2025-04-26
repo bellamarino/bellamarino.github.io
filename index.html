@@ -4,27 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
   </head>
 
 <body>
 <div class="w-[1440px] h-[3425px] relative bg-white overflow-hidden">
-  <div class="w-[1440px] h-40 left-0 top-0 absolute overflow-hidden">
-    <div class="size- left-[970px] top-[56px] absolute inline-flex justify-end items-center gap-12">
-      <div class="justify-center text-white text-xl font-medium font-['Inter'] leading-loose">Page</div>
-      <div class="justify-center text-white text-xl font-medium font-['Inter'] leading-loose">Page</div>
-      <div class="justify-center text-white text-xl font-medium font-['Inter'] leading-loose">Page</div>
-      <div class="size- px-6 py-3.5 bg-black rounded-lg shadow-[0px_1px_2px_0px_rgba(0,0,0,0.05)] flex justify-center items-center gap-2">
-        <div class="justify-center text-white text-base font-medium font-['Inter'] leading-normal">Button</div>
-      </div>
-    </div>
-    <div class="left-[80px] top-[67px] absolute justify-center text-white text-xl font-medium font-['Inter'] leading-loose">Site name</div>
-  </div>
   <div class="w-[1440px] h-36 left-0 top-[3287px] absolute bg-white overflow-hidden">
     <div class="left-[80px] top-[52px] absolute justify-center text-black text-2xl font-normal font-['Inter'] leading-9">Fashion Under Occupation by Isabella Marino</div>
     <div class="w-[1280px] h-0 left-[80px] top-[1px] absolute outline outline-1 outline-offset-[-0.50px] outline-neutral-200"></div>
   </div>
   <div class="w-[1440px] h-40 left-0 top-0 absolute shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] outline outline-1 outline-offset-[-1px] outline-black/20 overflow-hidden">
-    <div class="w-96 h-12 left-[963px] top-[58px] absolute">
+    <div class="w-96 h-12 left-[1022px] top-[58px] absolute">
       <div class="w-96 left-0 top-0 absolute inline-flex justify-start items-center gap-10 overflow-hidden">
         <div class="justify-center text-white text-3xl font-medium font-['Inter'] leading-[48px]">Portfolio</div>
         <div class="justify-center text-white text-3xl font-medium font-['Inter'] leading-[48px]">Works Cited</div>
@@ -46,7 +36,9 @@
       <div class="w-[480px] h-96 left-0 top-0 absolute overflow-hidden">
         <div class="w-96 h-80 left-[50px] top-[41px] absolute justify-center text-black text-xl font-medium font-['Inter'] leading-loose">Lorum Ipsom</div>
       </div>
-      <div class="w-[480px] h-96 left-[480px] top-0 absolute"></div>
+      <div class="w-[480px] h-96 left-[480px] top-0 absolute">
+      </div>
+
       <div class="w-[470px] h-96 left-[960px] top-0 absolute overflow-hidden">
         <div class="w-96 h-64 left-[43px] top-[41px] absolute justify-center text-black text-xl font-medium font-['Inter'] leading-loose">This Gallic rooster brooch is a baroque pearl with gold and tricolor adornments, from the House of Lanvin</div>
       </div>
@@ -55,7 +47,9 @@
       <div class="w-[480px] h-96 left-0 top-0 absolute overflow-hidden">
         <div class="w-96 h-80 left-[50px] top-[41px] absolute justify-center text-black text-xl font-medium font-['Inter'] leading-loose">Lorum Ipsum</div>
       </div>
-      <div class="w-[480px] h-96 left-[480px] top-0 absolute"></div>
+      <div class="w-[480px] h-96 left-[480px] top-0 absolute">
+            <model-viewer src="ParachuteBlouse.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="0.62" exposure="0.91" shadow-softness="1"></model-viewer>
+      </div>
       <div class="w-[480px] h-96 left-[960px] top-0 absolute overflow-hidden">
         <div class="w-96 h-64 left-[43px] top-[41px] absolute justify-center text-black text-xl font-medium font-['Inter'] leading-loose">Lorum Ipsum</div>
       </div>
